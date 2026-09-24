@@ -93,18 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // ==========================================================================
-  // 02 — 26: Page Loader
-  // ==========================================================================
-  const pageLoader = document.getElementById('page-loader');
-  if (pageLoader) {
-    setTimeout(() => {
-      pageLoader.classList.add('loaded');
-      setTimeout(() => {
-        pageLoader.style.display = 'none';
-      }, 800);
-    }, 1100);
-  }
 
   // Check if touch device / mobile
   const isTouchDevice = window.matchMedia('(pointer: coarse)').matches || 'ontouchstart' in window;
