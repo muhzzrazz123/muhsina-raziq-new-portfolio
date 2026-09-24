@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Metadata -->
+  <title>Muhsina Raziq | AI Content Creator & Visual Storyteller</title>
+  <meta name="title" content="Muhsina Raziq | AI Content Creator & Visual Storyteller">
+  <meta name="description" content="AI Content Creator portfolio of Muhsina Raziq. Cinematic AI videos, prompt engineering, visual storytelling, commercial advertisements, and creative technology.">
+  <meta name="keywords" content="Muhsina Raziq, AI Content Creator, Visual Storytelling, Prompt Engineering, Kling AI, Cinematic AI Videos, AI Commercials, Creative AI">
+  <meta name="author" content="Muhsina Raziq">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Muhsina Raziq | AI Content Creator">
+  <meta property="og:description" content="I create what imagination looks like. AI-powered visuals, cinematic stories, and digital experiences.">
+  <meta property="og:image" content="assets/images/muhsina-hero-coral.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+
+  <!-- Google Fonts: Space Grotesk, Sora, Manrope, Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,600;1,700&family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-theme="coral">
+
+  <!-- 26 — Page Loading Animation (1.2s punchy intro) -->
+  <div id="page-loader" class="page-loader">
+    <div class="loader-content">
+      <div class="loader-badge">✦ AI CREATOR PORTFOLIO</div>
+      <h1 class="loader-title">
+        <span class="loader-word">MUHSINA</span>
+        <span class="loader-word">RAZIQ</span>
+      </h1>
+      <p class="loader-sub">AI CONTENT CREATOR • VISUAL STORYTELLER</p>
+      <div class="loader-progress-bar">
+        <div class="loader-progress-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Subtle Film Grain Overlay -->
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <!-- 25 — Signature Interaction: AI Glowing Cursor Trail Canvas (Desktop) -->
+  <canvas id="cursor-trail-canvas" class="cursor-trail-canvas" aria-hidden="true"></canvas>
+
+  <!-- 09 — Custom Cursor (Desktop) -->
+  <div id="custom-cursor-dot" class="custom-cursor-dot" aria-hidden="true"></div>
+  <div id="custom-cursor-ring" class="custom-cursor-ring" aria-hidden="true">
+    <span id="cursor-text" class="cursor-text"></span>
+  </div>
+
+  <!-- 06 — Floating Navigation Pill (Top Center Glass Capsule) -->
+  <header class="floating-nav-wrapper">
+    <nav class="floating-nav-pill" id="floating-nav" aria-label="Main Navigation">
+      <a href="#hero" class="nav-brand" aria-label="Muhsina Raziq Home">
+        <span class="brand-spark">✦</span>
+        <span class="brand-name">MUHSINA</span>
+      </a>
+
+      <div class="nav-divider"></div>
+
+      <ul class="nav-menu">
+        <li><a href="#work" class="nav-link"><span class="link-label">WORK</span></a></li>
+        <li><a href="#about" class="nav-link"><span class="link-label">ABOUT</span></a></li>
+        <li><a href="#services" class="nav-link"><span class="link-label">SERVICES</span></a></li>
+        <li><a href="#toolkit" class="nav-link"><span class="link-label">TOOLKIT</span></a></li>
+        <li><a href="#process" class="nav-link"><span class="link-label">PROCESS</span></a></li>
+        <li><a href="#contact" class="nav-link"><span class="link-label">CONTACT</span></a></li>
+      </ul>
+
+      <div class="nav-divider"></div>
+
+      <a href="#contact" class="nav-cta-pill">
+        <span>LET'S CREATE</span>
+        <span class="cta-arrow">↗</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-btn" id="mobile-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile Fullscreen Navigation Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer-inner">
+      <div class="mobile-drawer-header">
+        <div class="brand-name">MUHSINA RAZIQ</div>
+        <button class="mobile-close-btn" id="mobile-close" aria-label="Close menu">✕</button>
+      </div>
+      <ul class="mobile-drawer-links">
+        <li><a href="#hero" class="mobile-link">01 — HOME</a></li>
+        <li><a href="#work" class="mobile-link">02 — WORK</a></li>
+        <li><a href="#about" class="mobile-link">03 — ABOUT</a></li>
+        <li><a href="#services" class="mobile-link">04 — SERVICES</a></li>
+        <li><a href="#toolkit" class="mobile-link">05 — TOOLKIT</a></li>
+        <li><a href="#process" class="mobile-link">06 — PROCESS</a></li>
+        <li><a href="#contact" class="mobile-link">07 — CONTACT</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="#contact" class="btn btn-primary full-width">START A PROJECT ↗</a>
+        <p class="mobile-tagline">AI • VISUALS • STORYTELLING • CREATIVE TECH</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         03 & 04 — HERO SECTION (Bold Coral Playground & Parallax Character Stage)
+         ========================================================================== -->
+    <section id="hero" class="hero-section section-theme-coral" data-section="coral">
+      <div class="hero-ambient-glow" aria-hidden="true"></div>
+
+      <div class="hero-container">
+        <!-- Left: Oversized Typography & Brand Messaging -->
+        <div class="hero-left-content">
+          <div class="hero-badge-pill" data-parallax="12">
+            <span class="live-dot"></span>
+            <span>AI CONTENT CREATOR & STORYTELLER</span>
+          </div>
+
+          <div class="hero-title-group">
+            <p class="hero-intro-text" data-parallax="6">I'M</p>
+            <h1 class="hero-main-name" data-parallax="8">
+              MUHSINA<span class="period-dot">.</span>
+            </h1>
+            <p class="hero-secondary-tagline" data-parallax="10">
+              I CREATE WHAT <span class="serif-accent">IMAGINATION</span> LOOKS LIKE.
+            </p>
+          </div>
+
+          <p class="hero-subdescription" data-parallax="12">
+            AI-powered visuals, cinematic commercial stories, and experimental digital experiences engineered with artificial intelligence.
+          </p>
+
+          <!-- 11 — Hero Action Buttons -->
+          <div class="hero-cta-group" data-parallax="14">
+            <a href="#work" class="btn btn-hero-dark" data-cursor="VIEW">
+              <span>VIEW MY WORK</span>
+              <span class="btn-arrow">↗</span>
+            </a>
+            <a href="#contact" class="btn btn-hero-outline" data-cursor="OPEN ↗">
+              <span>LET'S CREATE</span>
+            </a>
+          </div>
+
+          <div class="hero-micro-tags" data-parallax="16">
+            <span class="micro-tag">✦ KLING AI</span>
+            <span class="micro-tag">✦ PROMPT ARCHITECTURE</span>
+            <span class="micro-tag">✦ CINEMATIC CAMPAIGNS</span>
+          </div>
+        </div>
+
+        <!-- Right: 45–60% Dominant Character Parallax Composition -->
+        <div class="hero-right-stage" id="hero-stage">
+          <div class="stage-backdrop-circle" data-parallax="2"></div>
+          
+          <!-- 10 — Floating Stickers / Labels around Muhsina -->
+          <div class="floating-badge badge-top-left" data-parallax="14">
+            <span class="badge-icon">🎬</span>
+            <span class="badge-text">AI VIDEO</span>
+          </div>
+
+          <div class="floating-badge badge-top-right" data-parallax="18">
+            <span class="badge-icon">⚡</span>
+            <span class="badge-text">PROMPT ENGINEERING</span>
+          </div>
+
+          <div class="floating-badge badge-mid-left" data-parallax="12">
+            <span class="badge-icon">✨</span>
+            <span class="badge-text">VISUAL STORYTELLING</span>
+          </div>
+
+          <div class="floating-badge badge-bottom-right" data-parallax="16">
+            <span class="badge-icon">🪐</span>
+            <span class="badge-text">CREATIVE AI</span>
+          </div>
+
+          <div class="floating-badge badge-bottom-left" data-parallax="15">
+            <span class="badge-icon">💎</span>
+            <span class="badge-text">AI COMMERCIALS</span>
+          </div>
+
+          <!-- Character Container with Multi-Layer 3D Tilt & Eye-Tracking Parallax -->
+          <div class="hero-character-wrapper" id="hero-character-wrapper" data-parallax="8">
+            <div class="character-shadow"></div>
+            
+            <!-- Real photo cutout of Muhsina seamlessly set on coral playground -->
+            <div class="character-image-box" id="character-tilt-box">
+              <img 
+                src="assets/images/muhsina-cutout-clean.png" 
+                alt="Muhsina Raziq — AI Content Creator" 
+                class="hero-character-img" 
+                id="hero-avatar-img"
+                loading="eager"
+              >
+              <!-- Subtle dynamic light overlay following cursor -->
+              <div class="character-light-sheen" id="character-light-sheen"></div>
+            </div>
+
+            <!-- Floating Prompt Hologram Pill -->
+            <div class="character-prompt-pill" data-parallax="20">
+              <span class="prompt-spark">✦</span>
+              <span class="prompt-text">/imagine prompt: cinematic luxury commercial, 8k render...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 12 — Hero Scroll Indicator -->
+      <a href="#about" class="hero-scroll-indicator" aria-label="Scroll to explore">
+        <span class="scroll-text">SCROLL TO EXPLORE</span>
+        <span class="scroll-arrow-box">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 5v14M5 12l7 7 7-7"/>
+          </svg>
+        </span>
+      </a>
+    </section>
+
+    <!-- ==========================================================================
+         13 — ABOUT SECTION (Clean Editorial Cream Palette & Asymmetric Composition)
+         ========================================================================== -->
+    <section id="about" class="about-section section-theme-cream" data-section="cream">
+      <div class="section-container">
+        
+        <div class="about-grid">
+          <!-- Left Column: Photo & Visual Identity Badge -->
+          <div class="about-visual-column">
+            <div class="about-image-card" data-cursor="VIEW">
+              <div class="about-img-wrapper">
+                <img 
+                  src="assets/images/muhsina-editorial.png" 
+                  alt="Muhsina Raziq Editorial Portrait" 
+                  class="about-editorial-img"
+                  loading="lazy"
+                >
+              </div>
+              <div class="about-floating-stamp">
+                <span class="stamp-star">✦</span>
+                <span class="stamp-text">DIRECTED WITH AI</span>
+              </div>
+              <div class="about-caption-box">
+                <span class="caption-title">MUHSINA RAZIQ</span>
+                <span class="caption-subtitle">CALICUT, INDIA • GLOBAL AI WORK</span>
+              </div>
+            </div>
+
+            <!-- Micro Metrics Bento -->
+            <div class="about-metrics-grid">
+              <div class="metric-pill">
+                <span class="metric-num">100+</span>
+                <span class="metric-label">AI Prompts Engineered</span>
+              </div>
+              <div class="metric-pill">
+                <span class="metric-num">06+</span>
+                <span class="metric-label">Brand Commercial Cuts</span>
+              </div>
+              <div class="metric-pill">
+                <span class="metric-num">4K</span>
+                <span class="metric-label">Cinematic Render Master</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Editorial Typography & Philosophy -->
+          <div class="about-text-column">
+            <div class="section-eyebrow">
+              <span class="eyebrow-line"></span>
+              <span>01 / ABOUT THE CREATOR</span>
+            </div>
+
+            <h2 class="about-heading">
+              WHO IS <span class="highlight-coral">MUHSINA?</span>
+            </h2>
+
+            <div class="about-statement-box">
+              <h3 class="about-subheadline">
+                AI CREATOR.<br>
+                STORYTELLER.<br>
+                <span class="serif-accent">VISUAL EXPERIMENTER.</span>
+              </h3>
+            </div>
+
+            <div class="about-body-text">
+              <p class="lead-paragraph">
+                I operate at the intersection of literary storytelling, cinematic direction, and generative artificial intelligence.
+              </p>
+              <p>
+                To me, AI is not a shortcut for automation — it is an infinite digital studio. I don't just generate pictures; I direct neural networks like a production crew. I choreograph camera movements, sculpt volumetric light, and craft emotional resonance through words.
+              </p>
+              <p>
+                From luxury commercial advertisements to world-building sci-fi narratives, I translate abstract concepts into visceral visual reality that captivates audiences and elevates brands.
+              </p>
+            </div>
+
+            <!-- 19 — Education Highlight -->
+            <div class="education-editorial-badge">
+              <div class="edu-icon">🎓</div>
+              <div class="edu-content">
+                <h4 class="edu-title">BA ENGLISH & JOURNALISM</h4>
+                <p class="edu-institution">University of Calicut</p>
+                <p class="edu-desc">
+                  "My background in English and Journalism shaped my communication, storytelling, media, and creative-thinking skills — foundations that now directly influence how I orchestrate prompt architecture and visual narratives with AI."
+                </p>
+              </div>
+            </div>
+
+            <div class="about-signature-row">
+              <div class="signature-tagline">“TURNING IDEAS INTO VISUAL WORLDS.”</div>
+              <a href="#work" class="btn btn-editorial">
+                <span>EXPLORE MY WORK</span>
+                <span>↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         14 — SERVICES SECTION (Deep Wine / Dark Red & Cursor-Following Preview)
+         ========================================================================== -->
+    <section id="services" class="services-section section-theme-darkred" data-section="darkred">
+      <div class="section-container">
+        
+        <div class="services-header">
+          <div class="section-eyebrow light-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>02 / CAPABILITIES</span>
+          </div>
+          <h2 class="services-title">WHAT I <span class="serif-accent text-coral">CREATE</span></h2>
+          <p class="services-subtitle">
+            Hover over any discipline to reveal visual previews and production methodology.
+          </p>
+        </div>
+
+        <!-- Interactive Service Rows (Large Text with Cursor-Following Previews) -->
+        <div class="services-list-container" id="services-list">
+          
+          <!-- Service 01 -->
+          <div class="service-row" 
+               data-preview="assets/images/projects/bioluminescent-story.jpg" 
+               data-title="AI Content Creation" 
+               data-tag="Worldbuilding & Conceptual Art">
+            <div class="service-left">
+              <span class="service-num">01</span>
+              <span class="service-title-text">AI CONTENT CREATION</span>
+            </div>
+            <div class="service-mid">
+              <span class="service-tag">Generative Visuals • Conceptual Art</span>
+            </div>
+            <div class="service-right">
+              <span class="service-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- Service 02 -->
+          <div class="service-row" 
+               data-preview="assets/images/projects/perfume-commercial.jpg" 
+               data-video="assets/videos/muhsina-ai-work.mp4"
+               data-title="AI Video Production" 
+               data-tag="Kling AI • Commercials • Motion">
+            <div class="service-left">
+              <span class="service-num">02</span>
+              <span class="service-title-text">AI VIDEO PRODUCTION</span>
+            </div>
+            <div class="service-mid">
+              <span class="service-tag">Cinematic Commercials • Kling AI</span>
+            </div>
+            <div class="service-right">
+              <span class="service-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- Service 03 -->
+          <div class="service-row" 
+               data-preview="assets/images/projects/sci-fi-city.jpg" 
+               data-title="Prompt Engineering" 
+               data-tag="Advanced Prompt Architecture">
+            <div class="service-left">
+              <span class="service-num">03</span>
+              <span class="service-title-text">PROMPT ENGINEERING</span>
+            </div>
+            <div class="service-mid">
+              <span class="service-tag">Multi-Model Syntax • Style Guidance</span>
+            </div>
+            <div class="service-right">
+              <span class="service-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- Service 04 -->
+          <div class="service-row" 
+               data-preview="assets/images/projects/smart-eyewear.jpg" 
+               data-title="Social Media Content" 
+               data-tag="Reels • High-Engagement Viral Formats">
+            <div class="service-left">
+              <span class="service-num">04</span>
+              <span class="service-title-text">SOCIAL MEDIA CONTENT</span>
+            </div>
+            <div class="service-mid">
+              <span class="service-tag">Viral Reels • Campaign Micro-Assets</span>
+            </div>
+            <div class="service-right">
+              <span class="service-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- Service 05 -->
+          <div class="service-row" 
+               data-preview="assets/images/projects/avant-garde-fashion.jpg" 
+               data-title="Graphic Design" 
+               data-tag="Editorial Layouts • Brand Collateral">
+            <div class="service-left">
+              <span class="service-num">05</span>
+              <span class="service-title-text">GRAPHIC DESIGN</span>
+            </div>
+            <div class="service-mid">
+              <span class="service-tag">Visual Systems • Typography • Canva</span>
+            </div>
+            <div class="service-right">
+              <span class="service-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- Service 06 -->
+          <div class="service-row" 
+               data-preview="assets/images/projects/futuristic-auto.jpg" 
+               data-title="AI Consulting" 
+               data-tag="Creative AI Pipelines & Workflows">
+            <div class="service-left">
+              <span class="service-num">06</span>
+              <span class="service-title-text">AI CONSULTING</span>
+            </div>
+            <div class="service-mid">
+              <span class="service-tag">Workflow Audits • Team Upskilling</span>
+            </div>
+            <div class="service-right">
+              <span class="service-arrow">→</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Signature Floating Preview Window (Follows cursor smoothly on hover) -->
+        <div class="service-floating-preview" id="service-preview">
+          <div class="preview-media-container">
+            <img src="" alt="Service Preview" id="service-preview-img" class="preview-img">
+            <video src="" id="service-preview-video" class="preview-video" muted loop playsinline></video>
+          </div>
+          <div class="preview-meta">
+            <span id="service-preview-title" class="preview-title"></span>
+            <span id="service-preview-tag" class="preview-tag"></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         15 & 16 — PORTFOLIO SECTION (Deep Black Universe & Dynamic Bento Gallery)
+         ========================================================================== -->
+    <section id="work" class="portfolio-section section-theme-black" data-section="black">
+      <div class="section-container">
+        
+        <div class="portfolio-header">
+          <div class="portfolio-header-left">
+            <div class="section-eyebrow light-eyebrow">
+              <span class="eyebrow-line"></span>
+              <span>03 / SELECTED WORKS</span>
+            </div>
+            <h2 class="portfolio-title">
+              MY AI <span class="serif-accent text-coral">UNIVERSE</span>
+            </h2>
+            <p class="portfolio-subheading">
+              "Experiments, advertisements, stories and visual worlds created with AI."
+            </p>
+          </div>
+
+          <!-- Category Filter Pills -->
+          <div class="portfolio-filter-group" id="portfolio-filters">
+            <button class="filter-pill active" data-filter="all">ALL</button>
+            <button class="filter-pill" data-filter="commercials">AI COMMERCIALS</button>
+            <button class="filter-pill" data-filter="cinematic">CINEMATIC VIDEOS</button>
+            <button class="filter-pill" data-filter="product-ads">PRODUCT ADS</button>
+            <button class="filter-pill" data-filter="storytelling">AI STORYTELLING</button>
+            <button class="filter-pill" data-filter="experiments">EXPERIMENTS</button>
+          </div>
+        </div>
+
+        <!-- Bento / Editorial Asymmetric Gallery -->
+        <div class="portfolio-bento-grid" id="portfolio-grid">
+          
+          <!-- Project 01: Velora Parfum (Featured Full Video) -->
+          <article class="bento-card bento-hero-card" data-category="commercials" data-id="velora-parfum">
+            <div class="bento-media-box" data-cursor="VIEW">
+              <video 
+                src="assets/videos/muhsina-ai-work.mp4" 
+                poster="assets/images/projects/perfume-commercial.jpg"
+                class="bento-video" 
+                muted loop playsinline preload="metadata">
+              </video>
+              <div class="bento-badge-pill">FEATURED REEL</div>
+              <div class="bento-play-indicator">
+                <span class="play-icon">▶</span>
+                <span class="play-label">WATCH FULL CUT</span>
+              </div>
+            </div>
+            <div class="bento-info">
+              <div class="bento-meta-row">
+                <span class="bento-category">AI COMMERCIAL</span>
+                <span class="bento-year">2026</span>
+              </div>
+              <h3 class="bento-title">Velora Parfum — Haute Parfumerie</h3>
+              <p class="bento-desc">
+                Conceived, prompted, generated, and edited by Muhsina Raziq. Synthesizing glass caustics, slow-motion fluid dynamics, and high-fashion lighting.
+              </p>
+              <div class="bento-tags">
+                <span class="bento-tag">Kling AI</span>
+                <span class="bento-tag">Midjourney</span>
+                <span class="bento-tag">CapCut</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: Dior Eyewear (Commercial Video) -->
+          <article class="bento-card bento-tall-card" data-category="commercials" data-id="dior-eyewear">
+            <div class="bento-media-box" data-cursor="VIEW">
+              <video 
+                src="assets/videos/dior-eyewear.mp4" 
+                poster="assets/images/projects/smart-eyewear.jpg"
+                class="bento-video" 
+                muted loop playsinline preload="metadata">
+              </video>
+              <div class="bento-badge-pill">AI VIDEO</div>
+              <div class="bento-play-indicator">
+                <span class="play-icon">▶</span>
+              </div>
+            </div>
+            <div class="bento-info">
+              <div class="bento-meta-row">
+                <span class="bento-category">AI COMMERCIAL</span>
+                <span class="bento-year">2026</span>
+              </div>
+              <h3 class="bento-title">Luxury Eyewear — Dior Spec</h3>
+              <p class="bento-desc">
+                Anamorphic lens flares, dynamic camera acceleration, and premium luxury eyewear presentation.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 03: Galaxy Chocolate (Product Ad Video) -->
+          <article class="bento-card bento-medium-card" data-category="product-ads" data-id="galaxy-chocolate">
+            <div class="bento-media-box" data-cursor="VIEW">
+              <video 
+                src="assets/videos/galaxy-chocolate.mp4" 
+                class="bento-video" 
+                muted loop playsinline preload="metadata">
+              </video>
+              <div class="bento-badge-pill">PRODUCT AD</div>
+              <div class="bento-play-indicator">
+                <span class="play-icon">▶</span>
+              </div>
+            </div>
+            <div class="bento-info">
+              <div class="bento-meta-row">
+                <span class="bento-category">PRODUCT ADVERTISEMENT</span>
+                <span class="bento-year">2026</span>
+              </div>
+              <h3 class="bento-title">Galaxy Silk — Melted Sensations</h3>
+              <p class="bento-desc">
+                Hyper-realistic confectionery simulation with fluid silk physics and macro caramel swirls.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 04: Titan Watch (Commercial Video) -->
+          <article class="bento-card bento-medium-card" data-category="commercials" data-id="titan-watch">
+            <div class="bento-media-box" data-cursor="VIEW">
+              <video 
+                src="assets/videos/titan-watch.mp4" 
+                class="bento-video" 
+                muted loop playsinline preload="metadata">
+              </video>
+              <div class="bento-badge-pill">AI COMMERCIAL</div>
+              <div class="bento-play-indicator">
+                <span class="play-icon">▶</span>
+              </div>
+            </div>
+            <div class="bento-info">
+              <div class="bento-meta-row">
+                <span class="bento-category">AI COMMERCIAL</span>
+                <span class="bento-year">2026</span>
+              </div>
+              <h3 class="bento-title">Titan Chrono — Women's Horology</h3>
+              <p class="bento-desc">
+                Precision timepiece mechanics, rose-gold reflections, and delicate micro-motion choreography.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 05: Yardley Memories (Cinematic Video) -->
+          <article class="bento-card bento-wide-card" data-category="cinematic" data-id="yardley-memories">
+            <div class="bento-media-box" data-cursor="VIEW">
+              <video 
+                src="assets/videos/yardley-memories.mp4" 
+                class="bento-video" 
+                muted loop playsinline preload="metadata">
+              </video>
+              <div class="bento-badge-pill">CINEMATIC STORY</div>
+              <div class="bento-play-indicator">
+                <span class="play-icon">▶</span>
+              </div>
+            </div>
+            <div class="bento-info">
+              <div class="bento-meta-row">
+                <span class="bento-category">CINEMATIC VIDEO</span>
+                <span class="bento-year">2026</span>
+              </div>
+              <h3 class="bento-title">Yardley Memories — Ethereal Lavender Gardens</h3>
+              <p class="bento-desc">
+                Floral mist aesthetics, nostalgic golden hour lighting, and gentle cinematic storytelling.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 06: Aethelgard 2088 (Visual Storytelling) -->
+          <article class="bento-card bento-card-art" data-category="storytelling" data-id="aethelgard-city">
+            <div class="bento-media-box" data-cursor="VIEW">
+              <img 
+                src="assets/images/projects/sci-fi-city.jpg" 
+                alt="Aethelgard 2088 Sci-Fi City" 
+                class="bento-img" 
+                loading="lazy">
+              <div class="bento-badge-pill">WORLD BUILDING</div>
+            </div>
+            <div class="bento-info">
+              <div class="bento-meta-row">
+                <span class="bento-category">AI STORYTELLING</span>
+                <span class="bento-year">2026</span>
+              </div>
+              <h3 class="bento-title">Aethelgard 2088 — The Starlight Nomad</h3>
+              <p class="bento-desc">
+                Atmospheric worldbuilding exploring solitary figures navigating neon-lit megastructures.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 07: Liquid Iridescence (Creative Experiment) -->
+          <article class="bento-card bento-card-art" data-category="experiments" data-id="liquid-iridescence">
+            <div class="bento-media-box" data-cursor="VIEW">
+              <img 
+                src="assets/images/projects/avant-garde-fashion.jpg" 
+                alt="Liquid Iridescence Avant-Garde Fashion" 
+                class="bento-img" 
+                loading="lazy">
+              <div class="bento-badge-pill">AVANT-GARDE</div>
+            </div>
+            <div class="bento-info">
+              <div class="bento-meta-row">
+                <span class="bento-category">CREATIVE EXPERIMENT</span>
+                <span class="bento-year">2026</span>
+              </div>
+              <h3 class="bento-title">Liquid Iridescence — Kinetic Couture</h3>
+              <p class="bento-desc">
+                Zero-gravity microfabric simulation exploring generative textile physics and metallic refraction.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 08: Apex Hypercar (Product Ad) -->
+          <article class="bento-card bento-card-art" data-category="product-ads" data-id="apex-hypercar">
+            <div class="bento-media-box" data-cursor="VIEW">
+              <img 
+                src="assets/images/projects/futuristic-auto.jpg" 
+                alt="Apex Hypercar Autonomous Velocity" 
+                class="bento-img" 
+                loading="lazy">
+              <div class="bento-badge-pill">AUTOMOTIVE</div>
+            </div>
+            <div class="bento-info">
+              <div class="bento-meta-row">
+                <span class="bento-category">PRODUCT ADVERTISEMENT</span>
+                <span class="bento-year">2026</span>
+              </div>
+              <h3 class="bento-title">Apex Hypercar — Autonomous Velocity</h3>
+              <p class="bento-desc">
+                High-speed aerodynamic carbon reflections on rain-slicked asphalt at deep twilight.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 09: Abyssal Bloom (AI Storytelling) -->
+          <article class="bento-card bento-card-art" data-category="storytelling" data-id="abyssal-bloom">
+            <div class="bento-media-box" data-cursor="VIEW">
+              <img 
+                src="assets/images/projects/bioluminescent-story.jpg" 
+                alt="Abyssal Bloom Bioluminescent Flora" 
+                class="bento-img" 
+                loading="lazy">
+              <div class="bento-badge-pill">NARRATIVE</div>
+            </div>
+            <div class="bento-info">
+              <div class="bento-meta-row">
+                <span class="bento-category">AI STORYTELLING</span>
+                <span class="bento-year">2026</span>
+              </div>
+              <h3 class="bento-title">Abyssal Bloom — Luminescent Depths</h3>
+              <p class="bento-desc">
+                Deep-sea bioluminescent botanical ecosystems rendered with ethereal aquatic scattering.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         17 — "AI TOOLKIT" SECTION (Soft Lavender / Cream & Floating Chips)
+         ========================================================================== -->
+    <section id="toolkit" class="toolkit-section section-theme-lavender" data-section="lavender">
+      <div class="section-container">
+        
+        <div class="toolkit-header">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>04 / THE STACK</span>
+          </div>
+          <h2 class="toolkit-title">MY CREATIVE <span class="highlight-coral">TOOLKIT</span></h2>
+          <p class="toolkit-subheading">
+            No made-up percentage bars. These are the generative models and creative software I orchestrate every single day.
+          </p>
+        </div>
+
+        <!-- Floating Interactive Tool Chips (Playful Tilt + Tooltip Description) -->
+        <div class="toolkit-chips-container" id="toolkit-chips">
+          
+          <div class="tool-chip" data-role="Narrative Ideation & Prompt Crafting">
+            <div class="chip-inner">
+              <span class="tool-icon">🧠</span>
+              <span class="tool-name">CHATGPT</span>
+              <span class="tool-badge">REASONING</span>
+            </div>
+            <div class="tool-popover">
+              Used for initial concept ideation, character backstories, and structuring multi-layered prompts.
+            </div>
+          </div>
+
+          <div class="tool-chip" data-role="Multimodal Creative Analysis">
+            <div class="chip-inner">
+              <span class="tool-icon">✨</span>
+              <span class="tool-name">GEMINI</span>
+              <span class="tool-badge">MULTIMODAL</span>
+            </div>
+            <div class="tool-popover">
+              Visual reference cross-referencing, multimodal prompting, and technical script breakdowns.
+            </div>
+          </div>
+
+          <div class="tool-chip" data-role="Poetic Worldbuilding & Brand Voice">
+            <div class="chip-inner">
+              <span class="tool-icon">🖋️</span>
+              <span class="tool-name">CLAUDE</span>
+              <span class="tool-badge">NARRATIVE</span>
+            </div>
+            <div class="tool-popover">
+              Exceptional lyrical tone, nuanced commercial scripts, and cinematic scene descriptions.
+            </div>
+          </div>
+
+          <div class="tool-chip" data-role="Rapid Visual Prototyping">
+            <div class="chip-inner">
+              <span class="tool-icon">🍌</span>
+              <span class="tool-name">NANO BANANA</span>
+              <span class="tool-badge">PROTOTYPE</span>
+            </div>
+            <div class="tool-popover">
+              High-speed thumbnail iterations and experimental color-grading visual moodboards.
+            </div>
+          </div>
+
+          <div class="tool-chip" data-role="High-Speed Visual Synthesis">
+            <div class="chip-inner">
+              <span class="tool-icon">⚡</span>
+              <span class="tool-name">OMNIFLASH</span>
+              <span class="tool-badge">SPEED</span>
+            </div>
+            <div class="tool-popover">
+              Rapid asset generation, visual testing, and high-frequency campaign creative variations.
+            </div>
+          </div>
+
+          <div class="tool-chip" data-role="Motion Choreography & Pacing">
+            <div class="chip-inner">
+              <span class="tool-icon">💃</span>
+              <span class="tool-name">SEEDANCE</span>
+              <span class="tool-badge">MOTION</span>
+            </div>
+            <div class="tool-popover">
+              Rhythmic character movement, physics simulation, and continuous motion continuity.
+            </div>
+          </div>
+
+          <div class="tool-chip featured-chip" data-role="Flagship Cinematic Video Generation">
+            <div class="chip-inner">
+              <span class="tool-icon">🎬</span>
+              <span class="tool-name">KLING AI</span>
+              <span class="tool-badge">FLAGSHIP</span>
+            </div>
+            <div class="tool-popover">
+              My core engine for ultra-realistic physics, fluid simulation, and professional commercial camera moves.
+            </div>
+          </div>
+
+          <div class="tool-chip" data-role="Generative Flow & Transition Rigging">
+            <div class="chip-inner">
+              <span class="tool-icon">🌊</span>
+              <span class="tool-name">FLOW</span>
+              <span class="tool-badge">TRANSITIONS</span>
+            </div>
+            <div class="tool-popover">
+              Seamless morphing, camera path orchestration, and temporal motion control between keyframes.
+            </div>
+          </div>
+
+          <div class="tool-chip" data-role="Brand Collateral & Typography">
+            <div class="chip-inner">
+              <span class="tool-icon">🎨</span>
+              <span class="tool-name">CANVA</span>
+              <span class="tool-badge">DESIGN</span>
+            </div>
+            <div class="tool-popover">
+              Typography layouts, digital deck design, and social media publication collateral.
+            </div>
+          </div>
+
+          <div class="tool-chip" data-role="Sound Design & Precision Cut">
+            <div class="chip-inner">
+              <span class="tool-icon">✂️</span>
+              <span class="tool-name">CAPCUT</span>
+              <span class="tool-badge">POST-PROD</span>
+            </div>
+            <div class="tool-popover">
+              Frame-accurate cuts, multi-layer audio synchronization, Foley sound design, and master color grading.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         18 — CREATIVE PROCESS ("HOW AN IDEA BECOMES REAL")
+         ========================================================================== -->
+    <section id="process" class="process-section section-theme-cream" data-section="cream">
+      <div class="section-container">
+        
+        <div class="process-header">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>05 / METHODOLOGY</span>
+          </div>
+          <h2 class="process-title">
+            HOW AN IDEA <span class="highlight-coral">BECOMES REAL</span>
+          </h2>
+          <p class="process-subtitle">
+            A playful visual journey from a nascent spark into high-definition commercial art.
+          </p>
+        </div>
+
+        <div class="process-steps-track">
+          
+          <!-- Step 01 -->
+          <div class="process-step-card">
+            <div class="step-badge">01</div>
+            <div class="step-stage-name">THE IDEA</div>
+            <div class="step-icon-box">💡</div>
+            <h3 class="step-heading">Narrative & Concept</h3>
+            <p class="step-desc">
+              Drawing upon my journalism and storytelling foundation to extract the emotional core, visual metaphors, and brand essence.
+            </p>
+            <div class="step-code-preview">
+              <code>Concept: "Liquid gold meets midnight velvet"</code>
+            </div>
+          </div>
+
+          <div class="process-step-connector">
+            <span class="connector-arrow">→</span>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="process-step-card">
+            <div class="step-badge">02</div>
+            <div class="step-stage-name">THE PROMPT</div>
+            <div class="step-icon-box">⚡</div>
+            <h3 class="step-heading">Prompt Architecture</h3>
+            <p class="step-desc">
+              Architecting exact multi-parameter prompts with optical cues, volumetric lighting angles, camera lenses, and style weights.
+            </p>
+            <div class="step-code-preview">
+              <code>--ar 9:16 --v 6.1 --cinematic 35mm --motion 6</code>
+            </div>
+          </div>
+
+          <div class="process-step-connector">
+            <span class="connector-arrow">→</span>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="process-step-card">
+            <div class="step-badge">03</div>
+            <div class="step-stage-name">CREATE</div>
+            <div class="step-icon-box">🪐</div>
+            <h3 class="step-heading">Generative Synthesis</h3>
+            <p class="step-desc">
+              Directing Kling AI, Midjourney, and motion tools to synthesize fluid physics, actor expressions, and micro-movements.
+            </p>
+            <div class="step-code-preview">
+              <code>Kling AI: Rendering 4K frames @ 60fps...</code>
+            </div>
+          </div>
+
+          <div class="process-step-connector">
+            <span class="connector-arrow">→</span>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="process-step-card">
+            <div class="step-badge">04</div>
+            <div class="step-stage-name">REFINE</div>
+            <div class="step-icon-box">💎</div>
+            <h3 class="step-heading">Editorial Polish</h3>
+            <p class="step-desc">
+              Harmonizing pacing, color grading, foley sound design, typography overlays, and delivery across commercial vertical formats.
+            </p>
+            <div class="step-code-preview">
+              <code>Status: Export Master 4K Ready ✓</code>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         20 — TESTIMONIALS ("KIND WORDS")
+         ========================================================================== -->
+    <section class="testimonials-section section-theme-darkred" data-section="darkred">
+      <div class="section-container">
+        
+        <div class="testimonials-header">
+          <div class="section-eyebrow light-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>06 / REPUTATION</span>
+          </div>
+          <h2 class="testimonials-title">KIND <span class="serif-accent text-coral">WORDS</span></h2>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <div class="testimonial-card">
+            <div class="quote-mark" aria-hidden="true">“</div>
+            <blockquote class="testimonial-quote">
+              Professional, creative, and delivered high-quality AI content that exceeded expectations.
+            </blockquote>
+            <div class="testimonial-author">
+              <span class="author-dash">—</span>
+              <span class="author-title">Brand Collaboration Feedback</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-mark" aria-hidden="true">“</div>
+            <blockquote class="testimonial-quote">
+              Creative approach, great visual quality, and excellent understanding of AI content creation.
+            </blockquote>
+            <div class="testimonial-author">
+              <span class="author-dash">—</span>
+              <span class="author-title">Commercial Production Review</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         21 & 22 — CONTACT EXPERIENCE & FORM (Bold Coral Playground Finale)
+         ========================================================================== -->
+    <section id="contact" class="contact-section section-theme-coral" data-section="coral">
+      <div class="section-container">
+        
+        <div class="contact-card-box">
+          <div class="contact-header">
+            <div class="contact-badge-pill">
+              <span class="live-dot-dark"></span>
+              <span>AVAILABLE FOR SELECT COLLABORATIONS</span>
+            </div>
+
+            <h2 class="contact-title">
+              HAVE AN IDEA?<br>
+              <span class="serif-accent text-white">LET'S MAKE IT REAL.</span>
+            </h2>
+
+            <p class="contact-subtitle">
+              Cinematic AI video. Creative campaign. Product visual. Social content. Tell me what you're imagining.
+            </p>
+          </div>
+
+          <!-- Minimal Underlined Contact Form -->
+          <form class="minimal-contact-form" id="contact-form" novalidate>
+            
+            <div class="form-row form-row-two-col">
+              <div class="form-group">
+                <label for="form-name" class="form-label">YOUR NAME</label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Maya Lin" required>
+                <span class="form-underline"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">YOUR EMAIL</label>
+                <input type="email" id="form-email" name="email" class="form-input" placeholder="e.g. maya@studio.com" required>
+                <span class="form-underline"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-type" class="form-label">PROJECT TYPE</label>
+              <select id="form-type" name="projectType" class="form-input form-select" required>
+                <option value="" disabled selected>Select project discipline...</option>
+                <option value="commercial">Cinematic AI Video Commercial</option>
+                <option value="content">Generative AI Visual Campaign</option>
+                <option value="prompt">Prompt Engineering & Architecture</option>
+                <option value="social">Social Media Content & Reels</option>
+                <option value="consulting">Creative AI Consulting</option>
+                <option value="other">Something else wonderful</option>
+              </select>
+              <span class="form-underline"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="form-message" class="form-label">TELL ME ABOUT YOUR IDEA</label>
+              <textarea id="form-message" name="message" class="form-input form-textarea" rows="3" placeholder="Share your vision, mood, timeline or reference..." required></textarea>
+              <span class="form-underline"></span>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-submit" id="submit-btn" data-cursor="OPEN ↗">
+                <span class="btn-text">SEND MESSAGE</span>
+                <span class="btn-arrow">↗</span>
+              </button>
+              <span class="form-status" id="form-status" aria-live="polite"></span>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       23 — FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-name">MUHSINA RAZIQ</div>
+          <div class="footer-title">AI CONTENT CREATOR</div>
+        </div>
+
+        <ul class="footer-social-links">
+          <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram ↗</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn ↗</a></li>
+          <li><a href="mailto:muhsinaraziq@gmail.com" class="footer-link">Email ↗</a></li>
+          <li><a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="footer-link">Behance ↗</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-credo">CREATED WITH AI + CURIOSITY.</p>
+        <p class="footer-copy">© 2026 MUHSINA RAZIQ. ALL RIGHTS RESERVED.</p>
+        <a href="#hero" class="footer-back-top" aria-label="Back to top">
+          <span>BACK TO TOP</span>
+          <span class="arrow-up">↑</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Interactive Cinema Lightbox Modal for Full Videos & Prompt Breakdowns
+       ========================================================================== -->
+  <div class="cinema-modal" id="cinema-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">✕</button>
+      
+      <div class="modal-media-wrapper">
+        <video id="modal-video" class="modal-video-element" controls playsinline></video>
+        <img id="modal-image" class="modal-image-element" alt="Project detail">
+      </div>
+
+      <div class="modal-details-box">
+        <div class="modal-category-badge" id="modal-category">AI COMMERCIAL</div>
+        <h3 class="modal-title" id="modal-title">Project Title</h3>
+        <p class="modal-concept" id="modal-concept">Concept description here...</p>
+
+        <div class="modal-tools-list" id="modal-tools"></div>
+
+        <div class="modal-prompt-card">
+          <div class="prompt-header">
+            <span>PROMPT ARCHITECTURE</span>
+            <button class="copy-prompt-btn" id="copy-prompt-btn">COPY PROMPT</button>
+          </div>
+          <p class="prompt-content" id="modal-prompt-content">Prompt text goes here...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
