@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = process.env.PORT || 3000;
+const ROOT_DIR = path.join(__dirname, '..');
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=UTF-8',
@@ -22,7 +23,7 @@ const MIME_TYPES = {
 
 const server = http.createServer((req, res) => {
   const urlPath = decodeURI(req.url.split('?')[0]);
-  let filePath = path.join(__dirname, urlPath === '/' ? 'index.html' : urlPath);
+  let filePath = path.join(ROOT_DIR, urlPath === '/' ? 'index.html' : urlPath);
 
   fs.stat(filePath, (err, stats) => {
     if (err || !stats.isFile()) {
@@ -68,5 +69,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Muhsina Raziq Portfolio server running at http://localhost:${PORT}/`);
+  console.log(`Muhsina Raziq Portfolio dev server running at http://localhost:${PORT}/`);
 });
