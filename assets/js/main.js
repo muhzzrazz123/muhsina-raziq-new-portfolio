@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'AI COMMERCIAL',
       concept: 'Conceived, prompted, generated, and directed by Muhsina Raziq. Synthesizing photorealistic ruby glass caustics, slow-motion fluid dynamics, atmospheric chiaroscuro lighting, and high-precision model choreography into a seamless 30-second luxury commercial.',
       video: 'assets/videos/muhsina-ai-work.mp4',
-      image: 'assets/images/projects/perfume-commercial.jpg',
       tools: ['Kling AI', 'Midjourney', 'CapCut', 'Hugging Face'],
       prompt: 'Cinematic luxury perfume commercial advertisement for Velora Parfum, dramatic ruby red glass flacon emerging from obsidian shadows with gold typography, high fashion silhouette model with golden backlight halo, high-speed fluid caustics and amber liquid droplets, monumental architecture staircase with crimson neon strip lighting, slow-motion atomized mist spray, 4k ultra-high definition cinematic grade --ar 9:16'
     },
@@ -24,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'AI COMMERCIAL',
       concept: 'High-speed camera maneuvers and holographic optic refractions. Directed to demonstrate futuristic spatial eyewear through dramatic light sweeps and micro-facial choreography.',
       video: 'assets/videos/dior-eyewear.mp4',
-      image: 'assets/images/projects/smart-eyewear.jpg',
       tools: ['Kling AI', 'Midjourney', 'CapCut'],
       prompt: 'Cinematic luxury eyewear commercial for high fashion house, sleek obsidian and chrome sunglasses catching dramatic horizontal anamorphic lens flares, high-fashion model walking in minimal concrete brutalist gallery, rapid macro focal shift from eye to frame, 8k resolution --ar 9:16'
     },
@@ -33,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'PRODUCT ADVERTISEMENT',
       concept: 'Confectionery commercial simulation testing fluid viscosity and generative culinary physics. Seamless macro swirls of silk milk chocolate blending with golden caramel ribbons.',
       video: 'assets/videos/galaxy-chocolate.mp4',
-      image: 'assets/images/projects/perfume-commercial.jpg',
       tools: ['Kling AI', 'Midjourney', 'Topaz Video AI'],
       prompt: 'High-speed macro commercial advertisement of velvety liquid milk chocolate waves colliding with molten golden caramel ribbons, hyper-realistic fluid splash physics, rich studio golden lighting, 1000fps slow-motion phantom camera style, 4k ultra realistic --ar 16:9'
     },
@@ -42,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'AI COMMERCIAL',
       concept: 'Precision engineering meets feminine elegance. Exploring microscopic gear mechanics, rose-gold diamond bezel reflections, and dramatic shadow cuts.',
       video: 'assets/videos/titan-watch.mp4',
-      image: 'assets/images/projects/smart-eyewear.jpg',
       tools: ['Kling AI', 'Midjourney', 'CapCut'],
       prompt: 'Luxury timepiece commercial advertisement for Titan women\'s collection, intricate rose gold watch mechanics turning in slow motion, diamond hour markers glistening under soft studio rim light, elegant feminine wrist in charcoal silk sleeve, macro cinematic lens 8k --ar 9:16'
     },
@@ -51,45 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'CINEMATIC VIDEO',
       concept: 'A nostalgic fragrance memory piece exploring rolling lavender meadows, morning mist, and warm cinematic 35mm film emulation.',
       video: 'assets/videos/yardley-memories.mp4',
-      image: 'assets/images/projects/bioluminescent-story.jpg',
       tools: ['Kling AI', 'ChatGPT', 'CapCut'],
       prompt: 'Cinematic nostalgic fragrance story ad for Yardley, sweeping drone shot over morning lavender meadows bathed in golden dawn mist, delicate dew drops scattering light, gentle slow breeze, warm cinematic 35mm film grain aesthetic, peaceful and evocative --ar 16:9'
-    },
-    'aethelgard-city': {
-      title: 'Aethelgard 2088 — The Starlight Nomad',
-      category: 'AI STORYTELLING',
-      concept: 'An atmospheric sci-fi narrative sequence exploring a towering futuristic cyberpunk metropolis and a solitary wanderer observing the cosmic skyline.',
-      video: null,
-      image: 'assets/images/projects/sci-fi-city.jpg',
-      tools: ['ChatGPT', 'Kling AI', 'Midjourney', 'Claude'],
-      prompt: 'Cinematic AI visual storytelling, atmospheric sci-fi scene of an ethereal traveler in high-tech flowing garments standing on a towering precipice overlooking an illuminated futuristic neon metropolis, volumetric golden hour haze, subtle purple and magenta atmospheric backlighting, cinematic anamorphic composition, 8k render --ar 16:9'
-    },
-    'liquid-iridescence': {
-      title: 'Liquid Iridescence — Kinetic Couture',
-      category: 'CREATIVE EXPERIMENT',
-      concept: 'Zero-gravity avant-garde digital fashion experiment combining fluid metallic physics and generative micro-textiles.',
-      video: null,
-      image: 'assets/images/projects/avant-garde-fashion.jpg',
-      tools: ['Midjourney', 'Nano Banana', 'Flow AI', 'CapCut'],
-      prompt: 'Avant-garde AI high fashion visual experiment, iridescent metallic liquid fabric floating in zero gravity around a sculptural mannequin form, dark charcoal studio background, cinematic dramatic rim lighting in electric violet and soft rose gold, hyper-detailed textile weave, 8k editorial photography --ar 16:9'
-    },
-    'apex-hypercar': {
-      title: 'Apex Hypercar — Autonomous Velocity',
-      category: 'PRODUCT ADVERTISEMENT',
-      concept: 'Synthesizing motion-blur aerodynamics with architectural twilight reflections on wet asphalt runways.',
-      video: null,
-      image: 'assets/images/projects/futuristic-auto.jpg',
-      tools: ['Kling AI', 'Midjourney', 'Topaz Video AI'],
-      prompt: 'Cinematic AI commercial for a futuristic electric luxury hypercar on a wet reflective asphalt surface at twilight, dramatic moody violet and soft cyan atmospheric volumetric lighting, sleek aerodynamic carbon fiber body, sharp LED headlamp glow, ultra photorealistic cinematic octane render 8k --ar 16:9'
-    },
-    'abyssal-bloom': {
-      title: 'Abyssal Bloom — Luminescent Depths',
-      category: 'AI STORYTELLING',
-      concept: 'Deep-ocean bioluminescent botanical ecosystems rendered with ethereal aquatic light scattering and surreal flora choreography.',
-      video: null,
-      image: 'assets/images/projects/bioluminescent-story.jpg',
-      tools: ['Midjourney', 'Gemini', 'Flow AI'],
-      prompt: 'Bioluminescent deep sea flora and floating radiant jellyfish tendrils glowing in deep twilight cyan and amber, ethereal subsurface water caustics, cinematic documentary lighting, national geographic meets avatar aesthetic, ultra detailed macro photography --ar 16:9'
     }
   };
 
