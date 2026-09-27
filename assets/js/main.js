@@ -335,12 +335,14 @@ document.addEventListener('DOMContentLoaded', () => {
       mobileDrawer.classList.add('open');
       mobileDrawer.setAttribute('aria-hidden', 'false');
       mobileToggle.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
     });
 
     const closeDrawer = () => {
       mobileDrawer.classList.remove('open');
       mobileDrawer.setAttribute('aria-hidden', 'true');
       mobileToggle.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
     };
 
     if (mobileClose) mobileClose.addEventListener('click', closeDrawer);
