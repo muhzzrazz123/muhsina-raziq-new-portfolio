@@ -49,6 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
       video: 'assets/videos/yardley-memories.mp4',
       tools: ['Kling AI', 'ChatGPT', 'CapCut'],
       prompt: 'Cinematic nostalgic fragrance story ad for Yardley, sweeping drone shot over morning lavender meadows bathed in golden dawn mist, delicate dew drops scattering light, gentle slow breeze, warm cinematic 35mm film grain aesthetic, peaceful and evocative --ar 16:9'
+    },
+    'vibe-coding': {
+      title: 'Vibe Coding — Generative AI Web Engineering',
+      category: 'VIBE CODING',
+      concept: 'Real-time screen recording session showcasing modern AI-assisted development: architecting responsive user interfaces, fluid CSS animations, and interactive web playgrounds purely with natural language prompting.',
+      video: 'assets/videos/mm-recording.mp4',
+      tools: ['AI Models', 'Web Architecture', 'Prompt Engineering', 'CSS3 & JS'],
+      prompt: 'Interactive modern portfolio playground, cursor tracking dynamics, physics simulation, seamless responsive micro-animations --vibe coding'
     }
   };
 
